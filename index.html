@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portolio Website</title>
+    
+    <!-- linked stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- linked responsive stylesheet -->
+    <link rel="stylesheet" href="./resonsive.css">
+    <!-- linked Bootstrap CDN link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- linked Bootstrap icon CDN link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main_menu">
+    <!-- Navbar section starts -->
+    <nav id="main_menu" class="navbar navbar-expand-lg sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/icon.png" alt="icon">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link active text-white" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#About">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#project">Projects</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar section complete -->
+      <!-- Home section starts -->
+      <section id="Home">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-md-6  mb-5 mb-md-0 d-flex justify-content-center">
+              <div class="content">
+                <h1>Hello, <span>Its me</span></h1>
+                <span class="display-5">Madhan Kumar S</span><br>
+                <span class="lead">And Im a,</span>
+                <span class="title">Frontend Developer</span><br>
+                <a class="btn" href="./madhan.pdf" target="_blank" download>Download CV</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image">
+                <img  src="./images/profile.png"  alt="profile">
+                <img  src="./images/madhan.png"  alt="madhan-2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+        <!-- Home section Ends -->
+        
+        <!-- About section Starts -->
+        <section id="About">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center ">
+              <div class="col-md-6  mb-5 mb-md-0 d-flex justify-content-center reveal-1">
+                <div class="image">
+                  <img src="./images/madhan.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-6 reveal-2">
+                <div class="content">
+                  <h1>About <span class="color">Me</span></h1>
+                  <h2 class="display-3 text-white">Frontend Developer</h2>
+                  <p class="lead text-white">Aspiring and passionate Frontend Developer with a strong foundation in HTML, CSS, and JavaScript. Eager to contribute my creativity and technical skills to build visually appealing and user-friendly web applications.</p>
+                  <div class="link">
+                    <a href="#skills" class="btn-primary link-item">Show more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> 
+        <!-- Skills section starts -->
+      <section id="skills">
+        <div class="container">
+              <div class="heading">
+                 <h1 class="text-center text-white">My <span class="color">Skills</span></h1>
+              </div>
+            <div class="row pt-5 main reveal-3">
+              <!-- Cards -->
+            </div>  
+          </div>
+        </div>
+      </section>
+      <!-- projects section starts -->
+      <section id="project">
+        <div class="container">
+           <div class="row justify-content-center">
+              <div class="col-lg-8 text-center">
+                 <h2 class="title-md text-white">Recent <span class="color">Projects</span></h2>
+                 <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsam similique assumenda dignissimos! Minus, odio.</p>
+               </div>  
+               <div class="row reveal-4">
+                 <div class="col-md-4 pb-2 px-0 mb-1 px-md-2 mb-md-2">
+                    <div class="card overflow-hidden border-0">
+                       <img src="images/project-1.jpg" alt="">
+                       <div class="hover">
+                          <h2 class="text-white mb-0 pb-0">Boxfin Home Page</h2>
+                          <p class="lead text-white">A financial services website presenting information with modern design and interactive elements.</p>
+                          <a href="https://madhan05199.github.io/Boxfin/" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-4 pb-2 px-0 mb-1 px-md-2 mb-md-2">
+                    <div class="card overflow-hidden border-0">
+                       <img src="images/project-2.jpg" alt="">
+                       <div class="hover">
+                          <h2 class="text-white">Swiggy Home page</h2>
+                          <p class="lead text-white mb-0 pb-0">The food delivery platform's webpage offering a user-friendly interface to order meals online.</p>
+                          <a href="https://madhan05199.github.io/swiggy-home-page/" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-4 pb-2 px-0 mb-1 px-md-2 mb-md-2">
+                    <div class="card overflow-hidden border-0">
+                       <img src="images/project-3.jpg" alt="">
+                       <div class="hover">
+                          <h2 class="text-white">Facebook with signup & Login Page</h2>
+                          <p class="lead text-white mb-0 pb-0">Social media site featuring secure login and sign-up forms for users to connect globally.(with form Validation)</p>
+                          <a href="https://madhan05199.github.io/facebook-form-validation/" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-4 pb-2 px-0 mb-1 px-md-2 mb-md-2">
+                    <div class="card overflow-hidden border-0">
+                       <img src="images/project-4.jpg" alt="">
+                       <div class="hover">
+                          <h2 class="text-white">Restaurent Page</h2>
+                          <p class="lead text-white mb-0 pb-0">A restaurant's web presence showcasing its menu, ambiance, and contact details for potential patrons.</p>
+                          <a href="https://madhan05199.github.io/Restaurent-page/" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-4 pb-2 px-0 mb-1 px-md-2 mb-md-2">
+                    <div class="card overflow-hidden border-0">
+                       <img src="images/project-5.jpg" alt="">
+                       <div class="hover">
+                          <h2 class="text-white">Neflix Home Page</h2>
+                          <p class="lead text-white mb-0 pb-0"> Entertainment streaming platform's homepage delivering a range of shows, movies, and personalized recommendations.</p>
+                          <a href="https://madhan05199.github.io/net-flix/" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-4 pb-2 px-0 mb-1 px-md-2 mb-md-2">
+                    <div class="card overflow-hidden border-0">
+                       <img src="images/project-6.jpg" alt="">
+                       <div class="hover">
+                          <h2 class="text-white">Bookmyshow Home Page</h2>
+                          <p class="lead text-white  mb-0 pb-0">Event and movie ticketing webpage enabling users to explore, book, and buy tickets for various entertainment options.</p>
+                          <a href="https://madhan05199.github.io/Book-my-show/" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+              </div>
+          </div>
+     </section>
+     <!-- contact section -->
+     <section id="contact" class="pb-5">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-md-8">
+               <div class="card text-white p-3 reveal-5">
+                  <h1 class="text-center text-white"><span class="color">Contact</span> Us</h1>
+               <form action="" id="form">
+                  <label class="form-label" for="fname">Your Name</label>
+                  <input type="text" class="form-control mb-2" id="fname" placeholder="Enter your Name">
+                  <label class="form-label" for="email">Your Email</label>
+                  <input type="email" class="form-control mb-2" id="email" placeholder="Enter your Email">
+                  <label class="form-label" for="Phone">Your Phone</label>
+                  <input type="text" class="form-control mb-2" id="phone" placeholder="Enter your Phone number">
+                  <label class="form-label" for="msg">Your Comments</label>
+                  <textarea name="" class="form-control mb-2" id="msg" cols="30" rows="10"></textarea >
+                  <button class="btn btn-info form-control mb-2">Send Message</button>
+               </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer class="py-5">
+    <hr class="text-white">
+    <div>
+    <p class="text-center text-white">All rights reserved by © madhan kumar</p>
+  </div>
+</footer>
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("79_yoUSLq_yrPmOuT");
+    })();
+  </script>
+  <script src="script.js">
+
+  </script>
+</body>
+</html>

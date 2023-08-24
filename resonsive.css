@@ -1,0 +1,70 @@
+/* For Home section */
+
+@media (max-width:574px){
+   
+    #Home img:first-child{
+        width:235px;
+    }
+    #Home img:last-child{
+        width:275px;
+        transform: translate(-258px ,-42px);
+    
+    }
+    #Home .title{
+        font-size:20px;
+        margin-bottom:20px;
+    }
+    #Home .content h1 span{
+        font-size:20px;
+    }
+    #Home h3{
+        color:white;
+        margin-top:10px;
+        font-size:20px;
+    }
+}
+
+@media (max-width:767px){
+    #Home .title::after{
+        display: none;
+    }
+}
+
+/* For About section  */
+
+@media (max-width:767px){
+    #About .content h1,h2{
+        text-align: center;
+    }
+    #About .content p{
+        font-size:18px;
+       
+    }
+
+    #About .container .content h2{
+        font-size:28px;
+        font-weight: 600;
+        margin-bottom:15px;
+}
+    #About .row>div{
+        display: flex;
+        justify-content: center;
+    }
+
+    #About .circle{
+        width:230px;
+    }
+
+    #About .image img{
+        width:250px;
+    }
+    #About .link{
+        
+        text-align: center !important;
+    }
+}
+
+@media (max-width:575px){
+    
+
+}
